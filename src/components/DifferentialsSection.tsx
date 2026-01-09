@@ -1,26 +1,31 @@
-import { Award, Building2, Package, Headphones } from "lucide-react";
+import { Award, Building2, Package, Headphones, Truck } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const differentials = [
   {
     icon: Building2,
-    title: "45 Anos de Experiência",
-    description: "Mais de quatro décadas fornecendo soluções em tubos industriais para o mercado brasileiro"
-  },
-  {
-    icon: Award,
-    title: "Qualidade Certificada ISO 9001",
-    description: "Sistema de gestão da qualidade certificado, garantindo excelência em todos os processos"
+    title: "Pioneirismo",
+    description: "Há mais de 45 anos no mercado brasileiro, fornecendo tubos metálicos com qualidade e confiabilidade."
   },
   {
     icon: Package,
-    title: "Estoque Estratégico",
-    description: "Principais dimensões disponíveis para pronta entrega em todo o território nacional"
+    title: "Variedade Completa",
+    description: "Tubos de metalon quadrados e retangulares em diferentes dimensões e espessuras, prontos para diversas aplicações."
+  },
+  {
+    icon: Award,
+    title: "Qualidade Certificada",
+    description: "Controle rigoroso de qualidade e conformidade técnica em todos os lotes fornecidos."
   },
   {
     icon: Headphones,
-    title: "Suporte Técnico Especializado",
-    description: "Equipe qualificada para orientação técnica e dimensionamento"
+    title: "Suporte Técnico",
+    description: "Orientação gratuita para escolha do metalon adequado conforme aplicação, carga e ambiente de uso."
+  },
+  {
+    icon: Truck,
+    title: "Estoque Estratégico",
+    description: "Disponibilidade imediata e logística eficiente para entregas rápidas em todo o Brasil."
   }
 ];
 
@@ -30,14 +35,14 @@ const DifferentialsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Por que Escolher a Tubonasa?
+            Por Que Escolher Tubos de Metalon da Tubonasa?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Diferenciais que fazem da Tubonasa referência em tubos industriais
+            Conheça os diferenciais que fazem da Tubonasa referência em tubos de metalon
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
           {differentials.map((item, index) => (
             <Card 
               key={index} 
@@ -56,6 +61,17 @@ const DifferentialsSection = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <div className="bg-secondary/50 rounded-lg p-6 max-w-3xl mx-auto">
+            <h3 className="text-xl font-semibold text-foreground mb-3">
+              Tubos de Metalon: Versatilidade e Resistência na Prática
+            </h3>
+            <p className="text-muted-foreground">
+              Indicados para estruturas metálicas leves e médias, serralheria, portões, esquadrias, móveis metálicos e aplicações industriais.
+            </p>
+          </div>
         </div>
       </div>
     </section>
