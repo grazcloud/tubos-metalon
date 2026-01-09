@@ -11,19 +11,19 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Tubos Industriais FAQ - Tubonasa | 45 Anos de Experiência</title>
+        <title>Tubos de Metalon - Tubonasa | 45 Anos de Pioneirismo</title>
         <meta 
           name="description" 
-          content="Perguntas e respostas sobre tubos industriais com especialistas da Tubonasa. 45 anos de experiência em tubos Schedule 40, 80, sem costura e galvanizados para indústria." 
+          content="Tubos de metalon com qualidade certificada. 45 anos fornecendo tubos quadrados e retangulares para estruturas metálicas, serralheria e construção civil." 
         />
-        <meta name="keywords" content="tubos industriais, tubos schedule, tubos galvanizados, tubos sem costura, tubonasa, ASTM A106, NBR 5590, API 5L" />
-        <link rel="canonical" href="https://tubonasa.com.br/faq" />
+        <meta name="keywords" content="tubos de metalon, metalon quadrado, metalon retangular, tubos estruturais, serralheria, tubonasa" />
+        <link rel="canonical" href="https://tubonasa.com.br/metalon" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Tubos Industriais FAQ - Tubonasa | 45 Anos de Experiência" />
-        <meta property="og:description" content="Tire suas dúvidas sobre tubos industriais com especialistas que têm 45 anos de experiência no mercado brasileiro" />
+        <meta property="og:title" content="Tubos de Metalon - Tubonasa | 45 Anos de Pioneirismo" />
+        <meta property="og:description" content="Tire suas dúvidas sobre tubos de metalon com especialistas que têm 45 anos de experiência no mercado brasileiro" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tubonasa.com.br/faq" />
+        <meta property="og:url" content="https://tubonasa.com.br/metalon" />
         
         {/* Schema.org structured data */}
         <script type="application/ld+json">
@@ -33,10 +33,10 @@ const Index = () => {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "O que são tubos industriais e qual a diferença para tubos comuns?",
+                "name": "O que é metalon e para que ele é utilizado?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Os tubos industriais são produtos especialmente fabricados para suportar condições extremas de pressão, temperatura e corrosão em ambientes industriais."
+                  "text": "O metalon é um tubo de aço carbono com seção quadrada ou retangular, utilizado principalmente em estruturas metálicas, serralheria e aplicações industriais leves e médias."
                 }
               }
             ]
