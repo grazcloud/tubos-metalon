@@ -45,14 +45,14 @@ const faqData = [
     answer: "Sim. Nossa equipe técnica orienta desde a escolha do perfil até a aplicação correta."
   },
   {
-    question: "Como solicitar orçamento de tubos de metalon?",
+    question: "Como solicitar orçamento de metalon?",
     answer: "Basta entrar em contato com nossa equipe pelos canais disponíveis ou solicitar orçamento diretamente pelo site."
   }
 ];
 
 const FAQSection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://api.whatsapp.com/send?phone=551129540299&text=Gostaria%20de%20tirar%20d%C3%BAvidas%20sobre%20Tubos%20de%20Metalon.", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=551129540299&text=Gostaria%20de%20tirar%20d%C3%BAvidas%20sobre%20Metalon.", "_blank");
   };
 
   return (
@@ -61,7 +61,7 @@ const FAQSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Tire Suas Dúvidas sobre Tubos de Metalon
+              Tire Suas Dúvidas sobre Metalon
             </h2>
             <p className="text-lg text-muted-foreground">
               Perguntas mais comuns respondidas por nossos especialistas com base em 45 anos de experiência

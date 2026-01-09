@@ -11,7 +11,7 @@ const benefits = [
 
 const CTASection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://api.whatsapp.com/send?phone=551129540299&text=Gostaria%20de%20solicitar%20or%C3%A7amento%20sobre%20Tubos%20de%20Metalon.", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=551129540299&text=Gostaria%20de%20solicitar%20or%C3%A7amento%20sobre%20Metalon.", "_blank");
   };
 
   return (
@@ -27,7 +27,7 @@ const CTASection = () => {
           {/* Benefits Section */}
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Por Que Tubos de Metalon da Tubonasa?
+              Por Que Metalon da Tubonasa?
             </h2>
             <div className="grid md:grid-cols-2 gap-4 text-left max-w-2xl mx-auto">
               {benefits.map((benefit, index) => (
@@ -38,7 +38,7 @@ const CTASection = () => {
               ))}
             </div>
             <p className="text-lg text-gray-300 mt-8 italic">
-              Tubos de Metalon: a escolha inteligente para estruturas práticas, resistentes e com ótimo acabamento.
+              Metalon: a escolha inteligente para estruturas práticas, resistentes e com ótimo acabamento.
             </p>
           </div>
 
@@ -48,10 +48,10 @@ const CTASection = () => {
               Pronto para Seu Projeto?
             </h3>
             <h4 className="text-xl text-primary mb-4">
-              Tubos de Metalon de Qualidade para Seus Projetos
+              Metalon de Qualidade para Seus Projetos
             </h4>
             <p className="text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
-              Nossa equipe está pronta para fornecer tubos de metalon com qualidade garantida e suporte técnico completo. 45 anos de confiança no mercado.
+              Nossa equipe está pronta para fornecer metalon com qualidade garantida e suporte técnico completo. 45 anos de confiança no mercado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
