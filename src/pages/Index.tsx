@@ -11,17 +11,17 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Tubos de Metalon - Tubonasa | 45 Anos de Pioneirismo</title>
+        <title>Metalon - Tubonasa | 45 Anos de Pioneirismo</title>
         <meta 
           name="description" 
-          content="Tubos de metalon com qualidade certificada. 45 anos fornecendo tubos quadrados e retangulares para estruturas metálicas, serralheria e construção civil." 
+          content="Metalon com qualidade certificada. 45 anos fornecendo tubos quadrados e retangulares para estruturas metálicas, serralheria e construção civil." 
         />
-        <meta name="keywords" content="tubos de metalon, metalon quadrado, metalon retangular, tubos estruturais, serralheria, tubonasa" />
+        <meta name="keywords" content="metalon, metalon quadrado, metalon retangular, tubos estruturais, serralheria, tubonasa" />
         <link rel="canonical" href="https://tubonasa.com.br/metalon" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Tubos de Metalon - Tubonasa | 45 Anos de Pioneirismo" />
-        <meta property="og:description" content="Tire suas dúvidas sobre tubos de metalon com especialistas que têm 45 anos de experiência no mercado brasileiro" />
+        <meta property="og:title" content="Metalon - Tubonasa | 45 Anos de Pioneirismo" />
+        <meta property="og:description" content="Tire suas dúvidas sobre metalon com especialistas que têm 45 anos de experiência no mercado brasileiro" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tubonasa.com.br/metalon" />
         

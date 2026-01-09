@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-industrial-pipes.jpg";
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://api.whatsapp.com/send?phone=551129540299&text=Gostaria%20de%20solicitar%20or%C3%A7amento%20sobre%20Tubos%20de%20Metalon.", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=551129540299&text=Gostaria%20de%20solicitar%20or%C3%A7amento%20sobre%20Metalon.", "_blank");
   };
 
   return (
@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Tubos de metalon para estruturas metálicas" 
+          alt="Metalon para estruturas metálicas" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-industrial-darker/95 via-industrial-darker/85 to-industrial-darker/70"></div>
@@ -28,11 +28,11 @@ const HeroSection = () => {
           </Badge>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Tubos de Metalon: Qualidade e Versatilidade para Diversas Aplicações
+            Metalon: Qualidade e Versatilidade para Diversas Aplicações
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-200 mb-4 leading-relaxed">
-            Tire suas dúvidas sobre tubos de metalon com especialistas Tubonasa.
+            Tire suas dúvidas sobre metalon com especialistas Tubonasa.
           </p>
           
           <p className="text-lg text-gray-300 mb-4 leading-relaxed">
@@ -40,7 +40,7 @@ const HeroSection = () => {
           </p>
 
           <p className="text-base text-gray-300 mb-8 leading-relaxed">
-            Os tubos de metalon são amplamente utilizados em estruturas metálicas, serralheria, indústria e construção civil, por oferecerem formato regular, resistência mecânica e excelente acabamento. A Tubonasa fornece tubos de metalon com rigor técnico, garantindo segurança, durabilidade e eficiência para diferentes tipos de projeto.
+            O metalon é amplamente utilizado em estruturas metálicas, serralheria, indústria e construção civil, por oferecer formato regular, resistência mecânica e excelente acabamento. A Tubonasa fornece metalon com rigor técnico, garantindo segurança, durabilidade e eficiência para diferentes tipos de projeto.
           </p>
 
           <Button 
