@@ -64,9 +64,9 @@ const DifferentialsSection = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <div className="bg-secondary/50 rounded-lg p-6 max-w-3xl mx-auto">
+        <div className="bg-secondary/50 rounded-lg p-6 max-w-3xl mx-auto">
             <h3 className="text-xl font-semibold text-foreground mb-3">
-              Tubos de Metalon: Versatilidade e Resistência na Prática
+              Metalon: Versatilidade e Resistência na Prática
             </h3>
             <p className="text-muted-foreground">
               Indicados para estruturas metálicas leves e médias, serralheria, portões, esquadrias, móveis metálicos e aplicações industriais.
